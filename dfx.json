@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "project_sample_reactjs_backend": {
+      "main": "src/project_sample_reactjs_backend/main.mo",
+      "type": "motoko"
+    },
+    "project_sample_reactjs_frontend": {
+      "dependencies": [
+        "project_sample_reactjs_backend"
+      ],
+      "source": [
+        "src/project_sample_reactjs_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "project_sample_reactjs_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
